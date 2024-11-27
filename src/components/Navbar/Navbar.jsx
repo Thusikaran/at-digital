@@ -15,7 +15,6 @@ const Navbar = () => {
         <img className="Navbar-logo-img" src={logo} alt="Logo" />
       </div>
 
-      {/* Toggle Button */}
       <div className="Navbar-toggle" onClick={toggleSidebar}>
         <span className={isSidebarOpen ? 'toggle-icon1' : 'toggle-icon'}>{isSidebarOpen ? '✖' : '☰'}</span>
       </div>
