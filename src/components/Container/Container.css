@@ -1,0 +1,304 @@
+.container{
+    position: relative;
+}
+.container-img{
+    width: 100%;
+    height: 700px;
+}
+.container-text{
+    background: linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%);
+    position: absolute;
+    width:  620px;
+    height: Hug (306px)px;
+    top: 273px;
+    left: 80px;
+    padding: 24px 40px 32px 40px;
+    gap: 20px;
+}
+.container-text span {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+    
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.content-box{
+    display: flex;
+    width: Hug (1,064px)px;
+    height: Hug (414px)px;
+    margin-left: 188px;
+    gap: 108px;
+    opacity: 0px;
+    margin-right: 188px;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.content-box img{
+    width: 414px;
+    height: 414px;  
+}
+.content-box1{
+    display: flex;
+    width: Hug (1,064px)px;
+    height: Hug (414px)px;
+    margin-left: 188px;
+    gap: 108px;
+    opacity: 0px;
+    margin-right: 188px;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.content-box1 img{
+    width: 414px;
+    height: 414px;  
+}
+.content-text{
+    width: Fixed (542px)px;
+    height: Hug (187px)px;
+    gap: 20px;
+
+}
+.content-text span{
+    font-family: Poppins;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #6B3CC9;
+
+      
+}
+.content-text p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none; 
+    margin-top: 20px;   
+}
+
+.Question{
+    width: Hug (846px)px;
+    height: Hug (392px)px;
+    gap: 20px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 28px;
+    margin-bottom: 80px;
+}
+.Question-header{
+    font-family: Poppins;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:#6B3CC9;
+}
+.Question-top{
+    width: 846px;
+    height: Hug (149px)px;
+    padding: 24px 0px 0px 0px;
+    gap: 13px;
+    border-radius: 7px 0px 0px 0px;
+    opacity: 0px;
+    background: #FAF8FF;
+    padding: 24px;
+
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #6F6C90;
+
+}
+.Question-top-in{
+    display: flex;
+    justify-content: space-between;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #6B3CC9;
+}
+.Question-box{
+    display: flex;
+    justify-content: space-between;
+    width:846px;
+    height: Hug (76px)px;
+    padding: 24px 0px 0px 0px;
+    gap: 13px;
+    border-radius: 7px 0px 0px 0px;
+    opacity: 0px;   
+    background: #FAF8FF;
+    padding: 24px;
+
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+
+}
+
+ 
+/* ----------------------------------------------------1200px------------------------------------------------------- */
+@media (max-width: 1200px) {
+    .container-img{
+        height: 700px;
+    }
+    .content-box{
+        width: Fixed (896px)px;
+        height: Hug (346px)px;
+        margin-left: 152px;
+        margin-right: 152px;
+    }
+    .content-box img{
+        width: 346px;
+        height: 346px;
+    }
+    .content-box1{
+        width: Fixed (896px)px;
+        height: Hug (346px)px;
+        margin-left: 152px;
+        margin-right: 152px;
+    }
+    .content-box1 img{
+        width: 346px;
+        height: 346px;
+    }
+    .content-text{
+        width: Fixed (530px)px;
+        
+    }
+}
+/* -----------------------------------------------------768px----------------------------------------------------- */
+@media (max-width: 768px) {
+    .container-img{
+        height: 448px;
+    }
+    .container-text{
+        top: 448px;
+        left: 0px;
+        width: 90%;
+        padding: 5%;
+    }
+   .content{
+     margin-top: 260px;
+   }
+    .content-box{
+        
+        margin-left: 40px;
+        width: Fixed (688px)px;
+        height: Hug (275px)px;
+        margin-right: 40px;
+        gap: 0;
+    }
+    .content-box img{
+        width: 275px;
+        height: 275px;
+    }
+    .content-box1{
+        
+        margin-left: 40px;
+        width: Fixed (688px)px;
+        height: Hug (275px)px;
+        margin-right: 40px;
+        gap: 0;
+    }
+    .content-box1 img{
+        width: 275px;
+        height: 275px;
+    }
+    .content-text{
+        width: Fill (393px)px;
+        height: Hug (239px)px; 
+        gap: 0;    
+    }
+}
+/* ----------------------------------------------------376px---------------------------------------------------------- */
+@media (max-width: 376px) {
+    .container-img{
+        height: 218px;
+    }
+    .container-text{
+        top: 200px;
+        left: 0px;
+        width: 90%;
+        padding: 5%;
+    }
+    
+    .container-text span{
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+    }
+    .content{
+        margin-top: 260px;
+      }
+       .content-box{
+           flex-direction: column;
+           margin-left: 20px;
+           width: Fixed (335px)px;
+           height: Hug (572.82px)px;
+           margin-right: 20px;
+           gap: 0;
+       }
+       .content-box img{
+           width: 275px;
+           height: 275px;
+       }
+       .content-box1{
+        flex-direction: column-reverse;
+        margin-left: 20px;
+        width: Fixed (335px)px;
+        height: Hug (572.82px)px;
+        margin-right: 20px;
+        gap: 0;
+    }
+    .content-box1 img{
+        width: 275px;
+        height: 275px;
+    }
+       .content-text{
+        text-align: center;
+       }
+}

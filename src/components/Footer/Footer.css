@@ -1,0 +1,85 @@
+.footer{
+    width: Fixed (1,440px)px;
+    height: Hug (266px)px;
+    top: 2319px;
+    padding: 40px 80px 20px 80px;
+    gap: 40px;
+    opacity: 0px;
+    background: #6B3CC9;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo{
+    width: 413px;
+    height: Hug (102px)px;
+    gap: 20px;
+    opacity: 0px;
+
+}
+.footer-logo img{}
+.footer-logo p{
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.footer-li span{
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 25.41px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    
+}
+.footer-li p{
+    
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none; 
+    margin-top:  7px;
+}
+.footer-bottem{
+    display: flex;
+    justify-content: center;
+}
+.footer-bottem-div{
+    width: 630px;
+    height: Hug (25px)px;
+    gap: 8px;
+    opacity: 0px;
+    border-top: solid 1px #ffffff;
+      display: flex;
+      justify-content: center;
+      padding-top: 10px;
+      
+}
+.footer-bottem-div span{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
