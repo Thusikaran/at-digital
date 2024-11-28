@@ -39,6 +39,9 @@
   .Sidebar {
     display: none;
   }
+  .toggle-icon1{
+    display: none;
+  }
  
 /* -------------------------------------------------------------------1200px---------------------------------------- */
 @media (max-width: 1200px) {
@@ -124,6 +127,8 @@
         color: white;
         z-index: 3; 
         margin-right: 20px;
+        position: relative;
+        
       }
       .Sidebar {
         position: fixed;
@@ -170,13 +175,19 @@
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%;
+        height: 100vh;
         z-index: 1; 
       }
-      .toggle-icon1{
+      .toggle-icon1{  
+        display: block;
         color: #100C08;
+        position: fixed;
+        top :30px;
+        right: 30px;
 
-
+      }
+      .toggle-icon2{
+        display: none;
       }
 
     

@@ -15,8 +15,8 @@ const Navbar = () => {
         <img className="Navbar-logo-img" src={logo} alt="Logo" />
       </div>
 
-      <div className="Navbar-toggle" onClick={toggleSidebar}>
-        <span className={isSidebarOpen ? 'toggle-icon1' : 'toggle-icon'}>{isSidebarOpen ? '✖' : '☰'}</span>
+      <div className="Navbar-toggle" >
+        <span onClick={toggleSidebar} className={isSidebarOpen ? '' : 'toggle-icon'}>{isSidebarOpen ? '' : '☰'}</span>
       </div>
 
         <div className='Navbar-links'>
@@ -24,6 +24,7 @@ const Navbar = () => {
             <span className='Navbar-link'>ABOUT US</span>
             <span className='Navbar-link'>CONTACT US</span>
             <span className='Navbar-link'>CAREERS</span>
+            
         </div>
 
 <div className={`Sidebar ${isSidebarOpen ? 'open' : ''}`}>
@@ -32,10 +33,11 @@ const Navbar = () => {
           <span className="Sidebar-link">ABOUT US</span>
           <span className="Sidebar-link">CONTACT US</span>
           <span className="Sidebar-link">CAREERS</span>
+          <span onClick={toggleSidebar}  className={!isSidebarOpen ?'toggle-icon2':'toggle-icon1'} >✖</span>
         </div>
       </div>
     </div>
-        {!isSidebarOpen && (<div className="Overlay" onClick={toggleSidebar}></div>)}
+        {!isSidebarOpen  && (<div className="Overlay" ></div>)}
  </div>
   )
 }
