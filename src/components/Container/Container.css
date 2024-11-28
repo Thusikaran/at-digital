@@ -135,6 +135,7 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #6F6C90;
+    cursor: pointer;
 
 }
 .Question-top-in{
@@ -160,6 +161,7 @@
     opacity: 0px;   
     background: #FAF8FF;
     padding: 24px;
+    cursor: pointer;
 
     font-family: Inter;
     font-size: 22px;

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import bgimg from '../../assets/img/container.png'
 import './Container.css'
 import img1 from '../../assets/img/image1.png'
@@ -6,6 +6,9 @@ import img2 from '../../assets/img/image2.png'
 import { containerData } from '../../content/content'
 
 const Container = () => {
+    const [open1,setOpen1]=useState(false)
+    const [open2,setOpen2]=useState(false)
+    const [open3,setOpen3]=useState(false)
   return (
     <div>
         <div className='container'>
@@ -39,21 +42,36 @@ const Container = () => {
 
         <div className='Question'>
             <div className='Question-header'>{containerData.Question.title}</div>
-            <div className='Question-top'>
-                <div className='Question-top-in'>
+            <div className={open1?'Question-top':''}>
+                <div className={open1?'Question-top-in':'Question-box'}>
                     <div>{containerData.Question.text1}</div>
-                    <div><b>-</b></div>
+                    <div onClick={()=>setOpen1(!open1)}>{open1?<b>-</b>:<b>+</b>}</div>
                 </div>
+                {open1 && (
                 <div>{containerData.Question.text2}</div>
+                   )}
             </div>
-            <div  className='Question-box'>
-                <div>{containerData.Question.text3}</div>
-                <div>+</div>
+
+            <div className={open2?'Question-top':''}>
+                <div className={open2?'Question-top-in':'Question-box'}>
+                    <div>{containerData.Question.text3}</div>
+                    <div onClick={()=>setOpen2(!open2)}>{open2?<b>-</b>:<b>+</b>}</div>
+                </div>
+                {open2 && (
+                <div>{containerData.Question.text2}</div>
+                   )}
             </div>
-            <div  className='Question-box'>
-                <div>{containerData.Question.text4}</div>
-                <div>+</div>
+
+            <div className={open3?'Question-top':''}>
+                <div className={open3?'Question-top-in':'Question-box'}>
+                    <div>{containerData.Question.text4}</div>
+                    <div onClick={()=>setOpen3(!open3)}>{open3?<b>-</b>:<b>+</b>}</div>
+                </div>
+                {open3 && (
+                <div>{containerData.Question.text2}</div>
+                   )}
             </div>
+           
         </div>
     </div>
   )
