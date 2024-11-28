@@ -20,20 +20,20 @@ const Navbar = () => {
       </div>
 
         <div className='Navbar-links'>
-            <span className='Navbar-link'>SERVICES</span>
-            <span className='Navbar-link'>ABOUT US</span>
-            <span className='Navbar-link'>CONTACT US</span>
-            <span className='Navbar-link'>CAREERS</span>
+            <a className='Navbar-link'>SERVICES</a>
+            <a className='Navbar-link'>ABOUT US</a>
+            <a className='Navbar-link'>CONTACT US</a>
+            <a className='Navbar-link'>CAREERS</a>
             
         </div>
 
 <div className={`Sidebar ${isSidebarOpen ? 'open' : ''}`}>
         <div className="Sidebar-content">
-          <span className="Sidebar-link">SERVICES</span>
-          <span className="Sidebar-link">ABOUT US</span>
-          <span className="Sidebar-link">CONTACT US</span>
-          <span className="Sidebar-link">CAREERS</span>
-          <span onClick={toggleSidebar}  className={!isSidebarOpen ?'toggle-icon2':'toggle-icon1'} >✖</span>
+          <a className="Sidebar-link">SERVICES</a>
+          <a className="Sidebar-link">ABOUT US</a>
+          <a className="Sidebar-link">CONTACT US</a>
+          <a className="Sidebar-link">CAREERS</a>
+          <a onClick={toggleSidebar}  className={!isSidebarOpen ?'toggle-icon2':'toggle-icon1'} >✖</a>
         </div>
       </div>
     </div>
