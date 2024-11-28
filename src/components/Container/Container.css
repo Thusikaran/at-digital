@@ -155,9 +155,9 @@
     justify-content: space-between;
     width:846px;
     height: Hug (76px)px;
-    padding: 24px 0px 0px 0px;
+    padding: 24px ;
     gap: 13px;
-    border-radius: 7px 0px 0px 0px;
+    border-radius: 7px ;
     opacity: 0px;   
     background: #FAF8FF;
     padding: 24px;
@@ -326,7 +326,18 @@
        .content-text{
         text-align: center;
        }
+       /* .Question{
+        height: Hug (602px)px;
+       } */
        .Question-header{
          text-align: center;
        }
+       .Question-top{
+        width: 90%;
+        height: Hug (400px)px;
+        padding: 2% 5% ;
+        gap: 13px;
+        border-radius: 7px ;
+       
+    }
 }

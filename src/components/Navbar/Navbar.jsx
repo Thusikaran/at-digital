@@ -37,7 +37,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
-        {!isSidebarOpen  && (<div className="Overlay" ></div>)}
+        {!isSidebarOpen  ? (<div className={!isSidebarOpen?"Overlay":""} ></div>):<div> </div>}
  </div>
   )
 }
