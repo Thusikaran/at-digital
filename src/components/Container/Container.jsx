@@ -30,7 +30,7 @@ const Container = () => {
             <div className='content-box1'>
                 <div className='content-text'>
                     <span>{containerData.content[1].title}</span>
-                    <p>{containerData.content[1].data}</p>
+                    <p>{containerData.content[1].text}</p>
                     <button className='button'>LEARN MORE</button>
                 </div>
                 <img src={img1} alt="" />

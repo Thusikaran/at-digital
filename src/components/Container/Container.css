@@ -41,7 +41,7 @@
     gap: 108px;
     opacity: 0px;
     margin-right: 188px;
-    margin-top: 80px;
+    margin-top: 40px;
     justify-content: center;
     align-items: center;
 }
@@ -57,7 +57,7 @@
     gap: 108px;
     opacity: 0px;
     margin-right: 188px;
-    margin-top: 80px;
+    margin-top: 10px;
     justify-content: center;
     align-items: center;
 }
@@ -271,7 +271,7 @@
     }
 }
 /* ----------------------------------------------------376px---------------------------------------------------------- */
-@media (max-width: 376px) {
+@media (max-width: 712px) {
     .container-img{
         height: 218px;
     }
